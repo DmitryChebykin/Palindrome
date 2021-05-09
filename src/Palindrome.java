@@ -27,7 +27,7 @@ public class Palindrome {
 
     private static boolean isPalindrome(String string) {
         int i = 0;
-        int j = string.length() - i - 1;
+        int j = string.length() - 1;
 
         while (i <= j) {
             while (!Character.isLetter(string.charAt(i))) {
